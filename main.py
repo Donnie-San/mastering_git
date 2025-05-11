@@ -1,15 +1,16 @@
 class Animal:
-    def __init__(self):
-        pass
+    def __init__(self, health, speed):
+        self._health = health
+        self._speed = speed
 
 class Prey(Animal):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, health, speed):
+        super().__init__(health, speed)
 
 class Predator(Animal):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, health, speed):
+        super().__init__(health, speed)
 
-class Fish(Prey, Animal):
-    def __init__(self):
-        super().__init__()
+class Fish(Prey, Predatorl):
+    def __init__(self, health, speed):
+        super().__init__(health, speed)
