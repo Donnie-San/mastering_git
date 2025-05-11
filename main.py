@@ -15,7 +15,8 @@ class Fish(Prey, Animal):
         super().__init__()
 
 def main():
-    pass
+    fish1 = Fish()
+    fish2 = Fish()
 
 if __name__ == '__main__':
     main()
