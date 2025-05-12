@@ -28,7 +28,8 @@ def main():
     fish2 = Fish(800, 6.7)
 
     fish1.hunt()
-    fish2.flee()
+    # fish2.flee()
+    # This is dev john, please stop messing with the code!
 
 if __name__ == '__main__':
     main()
