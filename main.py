@@ -24,8 +24,12 @@ class Fish(Prey, Predator):
         super().__init__(type, health, speed)
 
 def main():
-    fish1 = Fish(523, 5.6)
-    fish2 = Fish(322, 6.7)
+    fish1 = Fish(500, 5.6)
+    fish2 = Fish(800, 6.7)
+
+    fish1.hunt()
+    # fish2.flee()
+    # This is dev john, please stop messing with the code!
 
 if __name__ == '__main__':
     main()
