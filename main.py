@@ -27,8 +27,6 @@ def main():
     fish1 = Fish(523, 5.6)
     fish2 = Fish(322, 6.7)
 
-    fish1.hunt()
-
 if __name__ == '__main__':
     main()
 
